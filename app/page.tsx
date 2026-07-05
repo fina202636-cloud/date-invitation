@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [accepted, setAccepted] = useState(false);
 
-  const [noText, setNoText] = useState("😊 Өөр өдөр зүгээрээ。");
+  const [noText, setNoText] = useState("😊  өдөр зүгээрээ。");
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-100 via-rose-50 to-white flex items-center justify-center p-6">
